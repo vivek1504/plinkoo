@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react"
 import { BallManager } from "../game/classes/BallManager";
 import axios from "axios";
 
+let balance = 1000;
 
 export function Game() {
     const [ballManager, setBallManager] = useState<BallManager>();
